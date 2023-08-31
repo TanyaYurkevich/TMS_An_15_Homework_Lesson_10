@@ -10,6 +10,9 @@ public class Util_Doc {
     public Util_Doc(String docNumber) {
         DocNumber = docNumber;
     }
+    public String getDocNumber() {
+        return DocNumber;
+    }
 
     public static String outputFirstBlock(String docNumber) {
         return docNumber.substring(0, 4) + " " ;
