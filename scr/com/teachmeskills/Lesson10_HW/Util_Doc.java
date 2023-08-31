@@ -1,7 +1,7 @@
 package com.teachmeskills.Lesson10_HW;
 
 public class Util_Doc {
-    static String DocNumber;
+    private String DocNumber;
     private String DocText;
 
 
